@@ -9,11 +9,12 @@ public class PortalScript : MonoBehaviour
     // When the player (headset) enters the portal's trigger
     private void OnTriggerEnter(Collider other)
     {
-        // Replace "CenterEyeAnchor" with the actual name of the head object in your Camera Rig
         if (other.gameObject.name == "CenterEyeAnchor") 
         {
             // Load the scene
             SceneManager.LoadScene(sceneToLoad);
+            Debug.Log("Entered portal: " + gameObject.name);
+            Debug.Log("Loading scene: " + sceneToLoad);
         }
     }
 }
