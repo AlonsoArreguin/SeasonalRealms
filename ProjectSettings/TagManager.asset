@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - SprintPortal
+  - Summer
+  - Winter
   layers:
   - Default
   - TransparentFX
@@ -14,8 +16,8 @@ TagManager:
   - UI
   - Inside Portal
   - Mask
-  - 
-  - 
+  - Inside Winter Portal
+  - Stencil Layer 1
   - 
   - 
   - 
