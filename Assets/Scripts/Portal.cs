@@ -21,6 +21,8 @@ public class Portal : MonoBehaviour
                 {
                     item.layer = newLayer;
                 }
+
+                
             }
         }
     }
