@@ -11,16 +11,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/PortalSceneTest.unity
     guid: 887411134fbe4ca4985513c940910de8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WinterScene.unity
     guid: 121167667f8bf3344b1d7c91abd92a96
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SpringScene.unity
     guid: 96e59170bc7a3b746a95201459a7ceee
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SummerScene.unity
     guid: 9a9735111843e6d42977e1db3198dbae
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AutumScene.unity
     guid: ec66fc8e8ca58df46a95438b20d48970
   m_configObjects:
