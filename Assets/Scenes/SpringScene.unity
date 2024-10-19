@@ -27489,7 +27489,7 @@ GameObject:
   - component: {fileID: 1276597011}
   - component: {fileID: 1276597010}
   m_Layer: 0
-  m_Name: AmbienAudio
+  m_Name: AmbientAudio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
