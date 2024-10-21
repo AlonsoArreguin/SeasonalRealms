@@ -6,7 +6,6 @@ public class Portal : MonoBehaviour
 {
     public string targetTag;
 
-    public AudioSource ambientAudioSource;
     public GameObject[] insidePortalGameObjects;
     public int newLayer;
 
@@ -25,15 +24,6 @@ public class Portal : MonoBehaviour
                 }
                 
             }
-            if (ambientAudioSource.isPlaying)
-            {
-                ambientAudioSource.Stop();
-            }
-            else
-            {
-                ambientAudioSource.Play();
-            }
-            
 
         }
     }
