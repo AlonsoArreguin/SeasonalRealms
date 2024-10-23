@@ -7,6 +7,7 @@ TagManager:
   - SprintPortal
   - Summer
   - Winter
+  - Menu
   layers:
   - Default
   - TransparentFX
