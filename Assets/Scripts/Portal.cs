@@ -5,8 +5,11 @@ using UnityEngine;
 public class Portal : MonoBehaviour
 {
     public string targetTag;
+
     public GameObject[] insidePortalGameObjects;
     public int newLayer;
+
+    public GameObject menu;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -17,11 +20,18 @@ public class Portal : MonoBehaviour
 
             if(angle < 90)
             {
+                menu.SetActive(false);
                 foreach (var item in insidePortalGameObjects)
                 {
                     item.layer = newLayer;
                 }
+                
             }
+            else
+            {
+                menu.SetActive(true);
+            }
+
         }
     }
 }

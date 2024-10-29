@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SprintPortal
+  - Summer
+  - Winter
+  - Menu
   layers:
   - Default
   - TransparentFX
@@ -13,13 +17,13 @@ TagManager:
   - UI
   - Inside Portal
   - Mask
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Inside Winter Portal
+  - Stencil Layer 1
+  - Inside Autumn Portal
+  - Stencil Layer 2
+  - Inside Spring Portal
+  - Stencil Layer 3
+  - Post Processing
   - 
   - 
   - 
